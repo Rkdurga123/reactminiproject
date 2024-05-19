@@ -1,0 +1,27 @@
+.back-btn {
+  background: transparent;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: fixed;
+  top: 0.5vh;
+  left: 0.7vw;
+
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+
+  color: #fff;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .back-btn {
+    left: 10.4vw;
+  }
+}
+
+.back-btn:hover {
+  color: #193f;
+}
